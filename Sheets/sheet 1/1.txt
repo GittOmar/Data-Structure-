@@ -1,0 +1,24 @@
+#include <iostream> 
+using namespace std;
+
+int main()
+{
+  int arr[10], t;
+  for(int i=0 ; i< 10 ;i++) cin>>arr[i]; // 10 nums are given
+  
+   int max , min , imax , imin;
+   max  = arr[0];
+   min  = arr[0];
+   for(int i = 1; i< 10 ;i++)
+   {
+     if(arr[i]>max)
+     {imax = i;
+     max = arr[i];}
+     
+     if(arr[i]<min)
+     {imin = i;
+     min = arr[i];}
+   }
+   cout<<"index of max : "<<imax<<"   value :   "<<max<<endl;
+    cout<<"index of min : "<<imin<<"  value :   "<<min;
+}
