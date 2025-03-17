@@ -65,7 +65,7 @@ int main()
 
 /*
 
-arr is equal to &arr[0]  which carry the address of the firest element in the array
+arr is equal to &arr[0]  which carry the address of the first element in the array
 
 &arr is pointer to the whole array
 
