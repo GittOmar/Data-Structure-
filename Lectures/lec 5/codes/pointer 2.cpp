@@ -29,6 +29,37 @@ int main()
     char *ww = w;
     cout<<w<<endl;
 
-    cout<<(*int)(w+1)<<endl;
+   // cout<<(*int)(w+1)<<endl;
+
+    // string 1d
+    // string array is 2d array
+    string _1d ="omar";
+    string _2d [2]= {"omar","ahmed"};
+    string *pt1 = &_1d;
+    //string (*pt2)[2]= _2d; // pointer to array of
+
+  // cout<<pt1<<endl;
+   //cout<<*(*(pt2+1)+2);
+
+   int f [2][2] ={1,2,3,4};
+   cout<<*f[1]<<endl;
+
+
+
+
+    char *q ="omar";
+     q="oaa";
+
+    cout<<q<<endl;
+
+    int *r;
+    r= new int[10];
+
+    int xx[10] ={0};
+    r = xx;
+    cout<<*r;
+    delete r;
+    cout<<*r;
+
 
 }
