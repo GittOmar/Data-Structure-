@@ -1,0 +1,32 @@
+                    //   وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ
+#include<bits/stdc++.h>
+#define fastIO ios_base::sync_with_stdio(0); cin.tie(0);
+using namespace std;
+
+class student
+{
+
+    int a,b;
+public:
+    student(int x ,int y){a=x; b=y;}
+    void print(){cout<<a<<endl;}
+
+};
+
+
+
+
+
+int main()
+{
+ student ss(2,3);
+ student s[3]={{2,3},{7,4},{3,4}};
+
+
+
+
+}
+
+
+
+
