@@ -50,8 +50,4 @@ int main()
         cout<<q.front()<<"  ";
         q.Dequeue();
     }
-
-
-
-
 }

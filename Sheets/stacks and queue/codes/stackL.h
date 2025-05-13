@@ -1,8 +1,4 @@
-
-#include<iostream>               // floating top implimentaion
 #include<cassert>
-using namespace std;
-
 template<class type>
 class stack
 {
@@ -18,7 +14,19 @@ class stack
     link head;
 
   public:
+   /// added functions decleration
+    void array_push(int arr[], int size);
 
+
+
+
+
+
+
+
+
+
+    ///
     stack()
     {
         head  = nullptr;
@@ -72,26 +80,4 @@ type stack<type>::top()
 {
     assert(head);
     return head->value;
-}
-
-
-
-int main()
-{
-    stack<int> l ;
-
-    for(int i=0;i<10;i++)
-    {
-        l.push(i);
-        cout<<l.top()<<"  ";
-    }
-    cout<<endl;
-
-
-    l.pop();
-    l.pop();
-    cout<<l.top()<<endl;
-    cout<<l.isEmpty()<<endl;
-    // cout<<l.isFull()<<endl;
-    cout<<sizeof(l)<<endl;
 }
